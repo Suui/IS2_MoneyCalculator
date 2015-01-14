@@ -40,8 +40,8 @@
       <file leaf-file-name="DatabaseExchangeRateLoader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mock/DatabaseExchangeRateLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22207268" vertical-offset="158" max-vertical-offset="901">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.51951545" vertical-offset="158" max-vertical-offset="901">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -751,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mock/DatabaseExchangeRateLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22207268" vertical-offset="158" max-vertical-offset="901">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.51951545" vertical-offset="158" max-vertical-offset="901">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
