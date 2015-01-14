@@ -1,7 +1,7 @@
 package model;
 
 
-import mock.DatabaseExchangeRateLoader;
+import interoperability.DatabaseExchangeRateLoader;
 
 import java.sql.SQLException;
 

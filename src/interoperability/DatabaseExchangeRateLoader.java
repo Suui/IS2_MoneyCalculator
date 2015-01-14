@@ -1,4 +1,4 @@
-package mock;
+package interoperability;
 
 import model.Currency;
 import model.ExchangeRate;
@@ -16,7 +16,7 @@ public class DatabaseExchangeRateLoader implements persistence.DatabaseExchangeR
         try {
             return searchExchangeRate(from, to);
         } catch (SQLException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
             return null;
         }
     }

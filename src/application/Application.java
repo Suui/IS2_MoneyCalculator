@@ -1,13 +1,9 @@
 package application;
 
-import console.ExchangeDisplay;
-import control.ExchangeOperation;
-import mock.CurrencySetLoader;
+import interoperability.DatabaseCurrencySetLoader;
 import model.CurrencySet;
 import swing.ApplicationFrame;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,7 +16,7 @@ public class Application {
 
         Connection connection = createConnection("currencies.db");
 
-        CurrencySet currencySet = new CurrencySetLoader().load(connection);
+        CurrencySet currencySet = new DatabaseCurrencySetLoader().load(connection);
         new ApplicationFrame(currencySet.toArray());
     }
 

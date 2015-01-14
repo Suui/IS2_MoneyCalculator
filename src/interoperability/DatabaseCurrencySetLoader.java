@@ -1,4 +1,4 @@
-package mock;
+package interoperability;
 
 import model.Currency;
 import model.CurrencySet;
