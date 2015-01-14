@@ -17,6 +17,7 @@ public class Exchange {
 
     public Money getMoney() throws SQLException {
         ExchangeRate exchangeRate = new DatabaseExchangeRateLoader().load(getMoneyFrom().getCurrency(), getTo());
+        if (exchangeRate == null) return null;
         return new Money(from.getAmount() * exchangeRate.getRate(), to);
     }
 

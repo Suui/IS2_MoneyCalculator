@@ -16,6 +16,7 @@ public class ExchangeOperation {
     }
 
     public void execute() throws SQLException {
+        exchangeDialog.setResultText(exchangeDialog.getExchange().getMoney());
         exchangeDisplay.display(exchangeDialog.getExchange().getMoney());
     }
 }
